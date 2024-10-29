@@ -2,6 +2,8 @@
 @section('title','Index de productos')
 @section('content')
 
+
+
 <h4> Listado de Productos </h4>
 <a href="{{route('products.create')}}" class="btn btn-primary" role="button"> Agregar Producto</a>
     <table class="table table-striped">
